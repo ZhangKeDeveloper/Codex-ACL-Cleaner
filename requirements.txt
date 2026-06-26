@@ -1,0 +1,11 @@
+# codex-acl-cleaner has NO third-party Python dependencies.
+#
+# The script relies only on the Python 3 standard library plus
+# the Windows built-in tools PowerShell and icacls.exe.
+#
+# Minimum Python version:
+#     Python 3.6+
+#   (required features: f-strings, subprocess.run(timeout=...))
+#
+# If your distribution prefers an explicit marker, uncomment:
+#     # Python>=3.6
